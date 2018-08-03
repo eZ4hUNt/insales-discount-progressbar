@@ -1,0 +1,88 @@
+		/* Прогресс-бар скидки */
+			.discount_title {
+				width: max-content;
+				display: block;
+				text-align: center;
+				font-size: 12px;
+				bottom: 24px;
+				color: #091616;
+				padding: 6px 20px;
+				letter-spacing: 0.2px;
+				font-weight: 400;
+				background: #e9e9e9;
+				border-radius: 2px;
+				line-height: 12px;
+				-webkit-animation-duration: .3s;
+				animation-duration: .3s;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+				-webkit-animation-name: fadeInUp;
+				animation-name: fadeInUp;
+				animation-delay: 2s;
+				-webkit-animation-delay: 2s;
+			}
+
+			.discount_footer {
+				font-size: 12px;
+			}
+
+			.discount_line_block {
+				display: flex;
+				padding: 10px 0;
+			}
+
+			.discount_progressive_discount {
+				font-size: 12px;
+				color: #091616;
+				letter-spacing: 0;
+				font-weight: 600;
+			}
+
+			.discount_next_discount {
+				font-size: 12px;
+				color: #091616;
+				letter-spacing: 0;
+				font-weight: 600;
+			}
+
+			.discount_line {
+				width: 200px;
+				height: 2px;
+				background-color: #e7e7e7;
+				margin: 10px 10px 0 10px;
+			}
+
+			.discount_line_active {
+				height: 2px;
+				background-color: #3eb3bd;
+			}
+			  
+			.account-orders .page-box__header-title {
+			  display:flex;
+			}
+			  
+			.account-orders .page-box__header-title .page-box__header-title-h1 {
+			  width: 100%;
+			}
+			  
+			.account-orders .discount_block {
+			  width: max-content;
+			}
+
+		  @media screen and (max-width: 1130px) {
+			.account-orders .page-box__header-title {
+			   text-align: left;
+			}
+		  }
+
+		  @media screen and (max-width: 600px) {
+			.account-orders .page-box__header-title {
+			  display:block;
+			}
+			.account-orders .page-box__header-title {
+			   text-align: center;
+			}
+			.discount_block {
+				margin:20px auto;
+			}
+		  }
